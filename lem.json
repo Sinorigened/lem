@@ -2,43 +2,135 @@
 "origin":[
 "#[#DATOS#]S1#"
 ],
-
 "S1":[
-"#ARTSM# #PERSONAJE# #PERS# #PREP# #ARTSM# #OBJ# #PREP# #ARTSF# #LUGAR#. #ACT# #PERS# #PREP# #ARTSF# #OBJ#",
+"#ARTSM# #PERSONAJEART# #PERS# en #ARTSM# #OBJSM# #PREP# #ARTSF# #LUGARSF#. #ACT# #PRET3ªSI# #PREP# #INF# #ARTSF# #OBJSF#",
 
-"#PERS1# #PREP# #PERS2# #ART# #OBJ# #PREP# #ACT# #ART# #LUGAR# #PREP# #LUGAR#",
+"#PERSONAJE# #PERS# #PREP# #ARTSM# #OBJSM# #PREP# #ARTSF# #LUGARSF#. #ACT# #PRET3ªSI# #PREP# #ARTSF# #OBJSF#",
+  
+"#PERS1# #PERS2# #ARTSF# #OBJSF#; #ACT# #PRET3ªSI# #ARTSM# #LUGARSM#, #PREP# #ARTSF# #ADJSF# #LUGARSF#",
 
-"#ACT# #FUT# #ARTSM# #OBJ# #PREP# #LUGAR#"
-  ],
+"#ACT# #FUT3ªSI# al #OBJSM# #PREP# #ARTSM# #LUGARSM#",
+  
+"#PERS1#, #DEMOSTSF# #OBJSF# #FUT3ªSI# #ARTSM# #LUGARSM#",
+  
+"#ADVL# #ARTSF# #LUGARSF# #FUT3ªSI#; #EXISSF# que #ANTEPRET3ªSI# #ARTPF# #LUGARPF#",
+
+"#INF# en #ARTSM# #OBJSM#, #ARTPM# #OBJPM# que #PRET2-3ªPI# #ARTSF# #LUGARSF#",
+
+"#ARTPM# #OBJPM# que #PRET2-3ªPI# #ARTSF# #LUGARSF#, #PARTIC# en #ARTSM# #OBJSM#"
+],
 "DATOS":[
-"[PERS:#PRET3ªSI#][PERS1:#PERSONAJE#][PERS2:#FUT#][PERS3:#ACT#][PERS4:#SUJETO#][PERS5:#ART#][PERS6:#ARTSM#][PERS8:#ARTSF#][PERS9:#ARTPM#][PERS10:#ARTPF#][PERS11:##][PERS12:##][PER13:##][PERS14:##][PERS15:##][PERS16:##][PERS17:##][PEROS18:##][PERS19:##][PERS20:##]"
+"[PERS:#PRET3ªSI#][PERS1:#PERSONAJE#][PERS2:#ANTEPRES3ªSI#][PERS3:#ACT#][PERS4:#SUJETO#][PERS5:#ART#][PERS6:#ARTSM#][PERS8:#ARTSF#][PERS9:#ARTPM#][PERS10:#ARTPF#][PERS11:##][PERS12:##][PER13:##][PERS14:##][PERS15:##][PERS16:##][PERS17:##][PEROS18:##][PERS19:##][PERS20:##]"
 ],
 
 "ACT":[
 "Trurl",
 "Clapaucio"
- 
 ],
 "SUJETOSM":[
-"gravitación",
 "astro",
 "análisis"
 ],
 "SUJETOPM":[
 "datos",
 "biólogos",
-"sabios"
+"sabios",
+"hombres"
+
 ],
 "SUJETOSF":[
+"gravitación",
 "monografía de Hughes y Eugel",
 "teoría de Gamow-Shapley",
 "Historia Solaris",
 "fluctuación",
 "temperatura",
 "célula"
+
 ],
 "SUJETOPF":[
 
+],
+"LUGARSM":[
+"Prometeo",
+"corredor",
+"océano",
+"sol rojo",
+"sol azul",
+"planeta",
+"castillo",
+"bosque",
+"domo",
+"taller",
+"observatorio",
+"satélite",
+"territorio rocoso",
+"hemisferio austral",
+"horizonte",
+"espacio"
+],
+"LUGARSF":[
+"Estación Solaris",
+"Tierra",
+"galaxia",
+"galaxia Alfa de Acuario",
+"órbita",
+"nave espacial",
+"cápsula",
+"superficie",
+"estación"
+
+],
+"LUGARPM":[
+"pasadizos",
+"planetas",
+"satélites",
+"observatorios",
+"orificios"
+
+],
+"LUGARPF":[
+"islas",
+"galaxias",
+"órbitas",
+"naves espaciales"
+],
+"OBJSM":[
+"monstruo",
+"robot",
+"modelo",
+"planeta",
+"sateloide Luna 247",
+"sateloide",
+"tonelaje C",
+"disco incandescente",
+"péndulo",
+"pared",
+"tablero"
+],
+"OBJSF":[
+"máquina",
+"cápsula",
+"claraboya de vidrio",
+"nave",
+"flotilla",
+"Tierra"
+],
+"OBJPM":[
+"monstruos",
+"robots",
+"modelos",
+"planetas",
+"sateloides Luna 247",
+"sateloides",
+"tonelajes C"
+],
+"OBJPF":[
+"máquinas",
+"cápsulas",
+"claraboyas de vidrio",
+"naves",
+"flotillas"
 ],
 "PERSONAJE":[
 "Kelvin",
@@ -46,11 +138,14 @@
 "Snaut",
 "Gibarían",
 "Sartorius",
-"Dr. Gibarían",
-"Dr. Snaut",
-"Dr. Sartorius",
 "Ottenskjold",
 "Shannahan"
+],
+"PERSONAJEART":[
+"Dr. Gibarían",
+"Dr. Snaut",
+"Dr. Sartorius"
+
 ],
 "INF":[
 "gravitar",
@@ -77,9 +172,6 @@
 "susurrar",
 "abrir",
 "responder"
-
-
-
 ],
 "INFCOM":[
 "haber gravitado",
@@ -101,12 +193,11 @@
 "haber huido",
 "haber distinguido",
 "haber aparecido",
-"haber distraido",
+"haber distraído",
 "haber progresado",
 "haber susurrado",
 "haber abierto",
 "haber respondido"
-
 ],
 "GERUN":[
 "gravitando",
@@ -133,7 +224,6 @@
 "susurrando",
 "abriendo",
 "respondiendo"
-
 ],
 "GERUNCOM":[
 "habiendo gravitado",
@@ -155,14 +245,12 @@
 "habiendo huido",
 "habiendo distinguido",
 "habiendo aparecido",
-"habiendo distraido",
+"habiendo distraído",
 "habiendo progresado",
 "habiendo susurrado",
 "habiendo abierto",
 "habiendo respondido"
-
 ],
-
 "PARTIC":[
 "gravitado",
 "viajado",
@@ -174,7 +262,7 @@
 "llamado",
 "recogido",
 "conectado",
-"oido",
+"oído",
 "apretado",
 "estado",
 "sido",
@@ -183,7 +271,7 @@
 "distinguido",
 "huido",
 "aparecido",
-"distraido",
+"distraído",
 "progresado",
 "susurrado",
 "abierto",
@@ -214,7 +302,6 @@
 "susurra",
 "abre",
 "responde"
-
 ],
 "PRES1ªSI":[
 "gravito",
@@ -293,10 +380,6 @@
 "susurra",
 "abre",
 "responde"
-
-
-
-
 ],
 "PRES1ªPI":[
 "gravitamos",
@@ -315,18 +398,14 @@
 "somos",
 "tratamos",
 "orientamos",
-"huímos",
+"huimos",
 "distinguimos",
 "aparecemos",
 "distraemos",
 "progresamos",
 "susurramos",
-"abrirmos",
+"abrimos",
 "respondemos"
-
-
-
-
 ],
 "PRES2-3ªPI":[
 "gravitan",
@@ -353,10 +432,6 @@
 "susurran",
 "abren",
 "responden"
-
-
-
-
 ],
 "ANTEPRES1ªSI":[
 "he gravitado",
@@ -369,7 +444,7 @@
 "he llamado",
 "he recogido",
 "he conectado",
-"he oido",
+"he oído",
 "he apretado",
 "he estado",
 "he sido",
@@ -378,7 +453,7 @@
 "he huido",
 "he distinguido",
 "he aparecido",
-"he distraido",
+"he distraído",
 "he progresado",
 "he susurrado",
 "he abierto",
@@ -396,7 +471,7 @@
 "has llamado",
 "has recogido",
 "has conectado",
-"has oido",
+"has oído",
 "has apretado",
 "has estado",
 "has sido",
@@ -405,12 +480,11 @@
 "has huido",
 "has distinguido",
 "has aparecido",
-"has distraido",
+"has distraído",
 "has progresado",
 "has susurrado",
 "has abierto",
 "has respondido"
-
 ],
 "ANTEPRES3ªSI":[
 "ha gravitado",
@@ -423,7 +497,7 @@
 "ha llamado",
 "ha recogido",
 "ha conectado",
-"ha oido",
+"ha oído",
 "ha apretado",
 "ha estado",
 "ha sido",
@@ -432,12 +506,11 @@
 "ha huido",
 "ha distinguido",
 "ha aparecido",
-"ha distraido",
+"ha distraído",
 "ha progresado",
 "ha susurrado",
 "ha abierto",
 "ha respondido"
-
 ],
 "ANTEPRES1ªPI":[
 "hemos gravitado",
@@ -450,7 +523,7 @@
 "hemos llamado",
 "hemos recogido",
 "hemos conectado",
-"hemos oido",
+"hemos oído",
 "hemos apretado",
 "hemos estado",
 "hemos sido",
@@ -459,12 +532,11 @@
 "hemos huido",
 "hemos distinguido",
 "hemos aparecido",
-"hemos distraido",
+"hemos distraído",
 "hemos progresado",
 "hemos susurrado",
 "hemos abierto",
 "hemos respondido"
-
 ],
 "ANTEPRES2-3ªPI":[
 "han gravitado",
@@ -477,7 +549,7 @@
 "han llamado",
 "han recogido",
 "han conectado",
-"han oido",
+"han oído",
 "han apretado",
 "han estado",
 "han sido",
@@ -486,12 +558,63 @@
 "han huido",
 "han distinguido",
 "han aparecido",
-"han distraido",
+"han distraído",
 "han progresado",
 "han susurrado",
 "han abierto",
 "han respondido"
-
+],
+"PRET1ªSI":[
+"gravité",
+"viajé",
+"engañé",
+"discutí",
+"observé",
+"cobré",
+"dividí",
+"llamé",
+"recogí",
+"conecté",
+"oí",
+"apreté",
+"estuve",
+"fui",
+"traté",
+"orienté",
+"huí",
+"distinguí",
+"aparecí",
+"distraje",
+"progresé",
+"susurré",
+"abrí",
+"respondí"
+],
+"PRET2ªSI":[
+"gravitaste",
+"viajaste",
+"engañaste",
+"discutiste",
+"observaste",
+"cobraste",
+"dividiste",
+"llamaste",
+"recogiste",
+"conectaste",
+"oíste",
+"apretaste",
+"estuviste",
+"fuiste",
+"trataste",
+"orientaste",
+"huiste",
+"distinguiste",
+"apareciste",
+"distrajiste",
+"progresaste",
+"susurraste",
+"abriste",
+"respondiste"
 ],
 "PRET3ªSI":[
 "gravitó",
@@ -517,66 +640,7 @@
 "progresó",
 "susurró",
 "abrió",
-"respondío"
-
-
-
-],
-"PRET1ªSI":[
-"gravité",
-"viajé",
-"engañé",
-"discutí",
-"observé",
-"cobré",
-"dividé",
-"llamé",
-"recogí",
-"conecté",
-"oí",
-"apreté",
-"estuve",
-"fui",
-"traté",
-"orienté",
-"huí",
-"distinguí",
-"aparecí",
-"distraje",
-"progrecé",
-"susurré",
-"abrí",
-"respondí"
-
-
-],
-"PRET2ªSI":[
-"gravitaste",
-"viajaste",
-"engañaste",
-"discutiste",
-"observaste",
-"cobraste",
-"dividiste",
-"llamaste",
-"recogiste",
-"conectaste",
-"oíste",
-"apretaste",
-"estuviste",
-"fuiste",
-"trataste",
-"orientaste",
-"huíste",
-"distinguiste",
-"apareciste",
-"distrajiste",
-"progresaste",
-"susurraste",
-"abriste",
-"respondiste"
-
-
+"respondió"
 ],
 "PRET1ªPI":[
 "gravitamos",
@@ -595,7 +659,7 @@
 "fuimos",
 "tratamos",
 "orientamos",
-"huímos",
+"huimos",
 "distinguimos",
 "aparecimos",
 "distrajimos",
@@ -603,9 +667,6 @@
 "susurramos",
 "abrimos",
 "respondimos"
-
-
-
 ],
 "PRET2-3ªPI":[
 "gravitaron",
@@ -620,7 +681,7 @@
 "conectaron",
 "oyeron",
 "apretaron",
-"estvieron",
+"estuvieron",
 "fueron",
 "trataron",
 "orientaron",
@@ -632,9 +693,6 @@
 "susurraron",
 "abrieron",
 "respondieron"
-
-
-
 ],
 "ANTEPRET1ªSI":[
 "hube gravitado",
@@ -647,7 +705,7 @@
 "hube llamado",
 "hube recogido",
 "hube conectado",
-"hube oido",
+"hube oído",
 "hube apretado",
 "hube estado",
 "hube sido",
@@ -656,12 +714,11 @@
 "hube huido",
 "hube distinguido",
 "hube aparecido",
-"hube distraido",
+"hube distraído",
 "hube progresado",
 "hube susurrado",
 "hube abierto",
 "hube respondido"
-
 ],
 "ANTEPRET2ªSI":[
 "hubiste gravitado",
@@ -674,7 +731,7 @@
 "hubiste llamado",
 "hubiste recogido",
 "hubiste conectado",
-"hubiste oido",
+"hubiste oído",
 "hubiste apretado",
 "hubiste estado",
 "hubiste sido",
@@ -683,7 +740,7 @@
 "hubiste huido",
 "hubiste distinguido",
 "hubiste aparecido",
-"hubiste distraido",
+"hubiste distraído",
 "hubiste progresado",
 "hubiste susurrado",
 "hubiste abierto",
@@ -701,7 +758,7 @@
 "hubo llamado",
 "hubo recogido",
 "hubo conectado",
-"hubo oido",
+"hubo oído",
 "hubo apretado",
 "hubo estado",
 "hubo sido",
@@ -710,7 +767,7 @@
 "hubo huido",
 "hubo distinguido",
 "hubo aparecido",
-"hubo distraido",
+"hubo distraído",
 "hubo progresado",
 "hubo susurrado",
 "hubo abierto",
@@ -728,7 +785,7 @@
 "hubimos llamado",
 "hubimos recogido",
 "hubimos conectado",
-"hubimos oido",
+"hubimos oído",
 "hubimos apretado",
 "hubimos estado",
 "hubimos sido",
@@ -737,7 +794,7 @@
 "hubimos huido",
 "hubimos distinguido",
 "hubimos aparecido",
-"hubimos distraido",
+"hubimos distraído",
 "hubimos progresado",
 "hubimos susurrado",
 "hubimos abierto",
@@ -755,7 +812,7 @@
 "hubieron llamado",
 "hubieron recogido",
 "hubieron conectado",
-"hubieron oido",
+"hubieron oído",
 "hubieron apretado",
 "hubieron estado",
 "hubieron sido",
@@ -764,7 +821,7 @@
 "hubieron huido",
 "hubieron distinguido",
 "hubieron aparecido",
-"hubieron distraido",
+"hubieron distraído",
 "hubieron progresado",
 "hubieron susurrado",
 "hubieron abierto",
@@ -796,9 +853,6 @@
 "susurraré",
 "abriré",
 "responderé"
-
-
-
 ],
 "FUT2ªSI":[
 "gravitarás",
@@ -825,9 +879,6 @@
 "susurrarás",
 "abrirás",
 "responderás"
-
-
-
 ],
 "FUT3ªSI":[
 "gravitará",
@@ -854,10 +905,6 @@
 "susurrará",
 "abrirá",
 "responderá"
-
-
-
-
 ],
 "FUT1ªPI":[
 "gravitaremos",
@@ -884,9 +931,6 @@
 "susurraremos",
 "abriremos",
 "responderemos"
-
-
-
 ],
 "FUT2-3ªPI":[
 "gravitarán",
@@ -913,9 +957,6 @@
 "susurrarán",
 "abrirán",
 "responderán"
-
-
- 
 ],
 "ANTEFUT1ªSI":[
 "habré gravitado",
@@ -928,7 +969,7 @@
 "habré llamado",
 "habré recogido",
 "habré conectado",
-"habré oido",
+"habré oído",
 "habré apretado",
 "habré estado",
 "habré sido",
@@ -937,7 +978,7 @@
 "habré huido",
 "habré distinguido",
 "habré aparecido",
-"habré distraido",
+"habré distraído",
 "habré progresado",
 "habré susurrado",
 "habré abierto",
@@ -955,7 +996,7 @@
 "habrás llamado",
 "habrás recogido",
 "habrás conectado",
-"habrás oido",
+"habrás oído",
 "habrás apretado",
 "habrás estado",
 "habrás sido",
@@ -964,7 +1005,7 @@
 "habrás huido",
 "habrás distinguido",
 "habrás aparecido",
-"habrás distraido",
+"habrás distraído",
 "habrás progresado",
 "habrás susurrado",
 "habrás abierto",
@@ -982,7 +1023,7 @@
 "habrá llamado",
 "habrá recogido",
 "habrá conectado",
-"habrá oido",
+"habrá oído",
 "habrá apretado",
 "habrá estado",
 "habrá sido",
@@ -991,7 +1032,7 @@
 "habrá huido",
 "habrá distinguido",
 "habrá aparecido",
-"habrá distraido",
+"habrá distraído",
 "habrá progresado",
 "habrá susurrado",
 "habrá abierto",
@@ -1009,7 +1050,7 @@
 "habremos llamado",
 "habremos recogido",
 "habremos conectado",
-"habremos oido",
+"habremos oído",
 "habremos apretado",
 "habremos estado",
 "habremos sido",
@@ -1018,12 +1059,11 @@
 "habremos huido",
 "habremos distinguido",
 "habremos aparecido",
-"habremos distraido",
+"habremos distraído",
 "habremos progresado",
 "habremos susurrado",
 "habremos abierto",
 "habremos respondido"
-
 ],
 "ANTEFUT2-3ªPI":[
 "habrán gravitado",
@@ -1036,7 +1076,7 @@
 "habrán llamado",
 "habrán recogido",
 "habrán conectado",
-"habrán oido",
+"habrán oído",
 "habrán apretado",
 "habrán estado",
 "habrán sido",
@@ -1045,12 +1085,11 @@
 "habrán huido",
 "habrán distinguido",
 "habrán aparecido",
-"habrán distraido",
+"habrán distraído",
 "habrán progresado",
 "habrán susurrado",
 "habrán abierto",
 "habrán respondido"
-
 ],
 "COPRE1-3ªSI":[
 "gravitaba",
@@ -1059,7 +1098,7 @@
 "discutía",
 "observaba",
 "cobraba",
-"dividá",
+"dividía",
 "llamaba",
 "recogía",
 "conectaba",
@@ -1077,8 +1116,6 @@
 "susurraba",
 "abría",
 "respondía"
-
-
 ],
 "COPRE2ªSI":[
 "gravitabas",
@@ -1105,8 +1142,6 @@
 "susurrabas",
 "abrías",
 "respondías"
-
-
 ],
 "COPRE1ªPI":[
 "gravitábamos",
@@ -1133,8 +1168,6 @@
 "susurrábamos",
 "abríamos",
 "respondíamos"
-
-
 ],
 "COPRE2-3ªPI":[
 "gravitaban",
@@ -1161,8 +1194,6 @@
 "susurraban",
 "abrían",
 "respondían"
-
-
 ],
 "ANTECOPRE1-3ªSI":[
 "había gravitado",
@@ -1175,7 +1206,7 @@
 "había llamado",
 "había recogido",
 "había conectado",
-"haba oido",
+"haba oído",
 "había apretado",
 "había estado",
 "había sido",
@@ -1185,11 +1216,10 @@
 "había distinguido",
 "había aparecido",
 "había progresado",
-"había distraido",
+"había distraído",
 "había susurrado",
 "había abierto",
 "había respondido"
-
 ],
 "ANTECOPRE2ªSI":[
 "habías gravitado",
@@ -1202,7 +1232,7 @@
 "habías llamado",
 "habías recogido",
 "habías conectado",
-"habías oido",
+"habías oído",
 "habías apretado",
 "habías estado",
 "habías sido",
@@ -1212,11 +1242,10 @@
 "habías distinguido",
 "habías aparecido",
 "habías progresado",
-"habías distraido",
+"habías distraído",
 "habías susurrado",
 "habías abierto",
 "habías respondido"
-
 ],
 "ANTECOPRE1ªPI":[
 "habíamos gravitado",
@@ -1229,7 +1258,7 @@
 "habíamos llamado",
 "habíamos recogido",
 "habíamos conectado",
-"habamos oido",
+"habíamos oído",
 "habíamos apretado",
 "habíamos estado",
 "habíamos sido",
@@ -1239,11 +1268,10 @@
 "habíamos distinguido",
 "habíamos aparecido",
 "habíamos progresado",
-"habíamos distraido",
+"habíamos distraído",
 "habíamos susurrado",
 "habíamos abierto",
 "habíamos respondido"
-
 ],
 "ANTECOPRE2-3ªPI":[
 "habían gravitado",
@@ -1256,7 +1284,7 @@
 "habían llamado",
 "habían recogido",
 "habían conectado",
-"habían oido",
+"habían oído",
 "habían apretado",
 "habían estado",
 "habían sido",
@@ -1266,11 +1294,10 @@
 "habían distinguido",
 "habían aparecido",
 "habían progresado",
-"habían distraido",
+"habían distraído",
 "habían susurrado",
 "habían abierto",
 "habían respondido"
-
 ],
 "POSPRE1-3ªSI":[
 "gravitaría",
@@ -1297,8 +1324,6 @@
 "susurraría",
 "abriría",
 "respondería"
-
-
 ],
 "POSPRE2ªSI":[
 "gravitarías",
@@ -1325,8 +1350,6 @@
 "susurrarías",
 "abrirías",
 "responderías"
-
-
 ],
 "POSPRE1ªPI":[
 "gravitaríamos",
@@ -1353,8 +1376,6 @@
 "susurraríamos",
 "abriríamos",
 "responderíamos"
-
-
 ],
 "POSPRE2-3ªPI":[
 "gravitarían",
@@ -1381,8 +1402,6 @@
 "susurrarían",
 "abrirían",
 "responderían"
-
-
 ],
 "ANTECOPRE1-3ªSI":[
 "habría gravitado",
@@ -1395,7 +1414,7 @@
 "habría llamado",
 "habría recogido",
 "habría conectado",
-"habría oido",
+"habría oído",
 "habría apretado",
 "habría estado",
 "habría sido",
@@ -1405,11 +1424,10 @@
 "habría distinguido",
 "habría aparecido",
 "habría progresado",
-"habría distraido",
+"habría distraído",
 "habría susurrado",
 "habría abierto",
 "habría respondido"
-
 ],
 "ANTECOPRE2ªSI":[
 "habrías gravitado",
@@ -1422,7 +1440,7 @@
 "habrías llamado",
 "habrías recogido",
 "habrías conectado",
-"habrías oido",
+"habrías oído",
 "habrías apretado",
 "habrías estado",
 "habrías sido",
@@ -1432,7 +1450,7 @@
 "habrías distinguido",
 "habrías aparecido",
 "habrías progresado",
-"habrías distraido",
+"habrías distraído",
 "habrías susurrado",
 "habrías abierto",
 "habrías respondido"
@@ -1449,7 +1467,7 @@
 "habríamos llamado",
 "habríamos recogido",
 "habríamos conectado",
-"habríamos oido",
+"habríamos oído",
 "habríamos apretado",
 "habríamos estado",
 "habríamos sido",
@@ -1459,11 +1477,10 @@
 "habríamos distinguido",
 "habríamos aparecido",
 "habríamos progresado",
-"habríamos distraido",
+"habríamos distraído",
 "habríamos susurrado",
 "habríamos abierto",
 "habríamos respondido"
-
 ],
 "ANTECOPRE2-3ªPI":[
 "habrían gravitado",
@@ -1476,7 +1493,7 @@
 "habrían llamado",
 "habrían recogido",
 "habrían conectado",
-"habrían oido",
+"habrían oído",
 "habrían apretado",
 "habrían estado",
 "habrían sido",
@@ -1486,11 +1503,10 @@
 "habrían distinguido",
 "habrían aparecido",
 "habrían progresado",
-"habrían distraido",
+"habrían distraído",
 "habrían susurrado",
 "habrían abierto",
 "habrían respondido"
-
 ],
 "ARTSM":[
 "el"  
@@ -1508,13 +1524,13 @@
 "lo"  
 ],
 "DEMOSTSM":[
-"este",
-"ese",
+"éste",
+"ése",
 "aquel"
 ],
 "DEMOSTSF":[
-"esta",
-"esa",
+"ésta",
+"ésa",
 "aquella"
 ],
 "DEMOSTSN":[
@@ -1523,13 +1539,13 @@
 "aquello"
 ],
 "DEMOSTPM":[
-"estos",
-"esos",
+"éstos",
+"ésos",
 "aquellos"
 ],
 "DEMOSTPF":[
-"estas",
-"esas",
+"éstas",
+"ésas",
 "aquellas"
 ],
 "POSESSM1":[
@@ -1710,8 +1726,8 @@
 "alguno",
 "ningún",
 "ninguno",
-"alguien",
 "nadie",
+"alguien",
 "cualquier",
 "cualquiera",
 "quienquiera"
@@ -1721,6 +1737,13 @@
 "ninguna",
 "alguien",
 "nadie",
+"cualquier",
+"cualquiera",
+"quienquiera"
+],
+"EXISSN":[
+"nadie",
+"alguien",
 "cualquier",
 "cualquiera",
 "quienquiera"
@@ -1750,16 +1773,6 @@
 "INEXRSF":[
 "cuánta",
 "cuya",
-"cuál",
-"qué",
-"quién",
-"dónde",
-"cómo",
-"cuándo"
-],
-"INEXRSM":[
-"cuánto",
-"cuyo",
 "cuál",
 "qué",
 "quién",
@@ -1861,7 +1874,7 @@
 "asiduamente",
 "inicialmente",
 "puntualmente",
-"aún"
+"aún",
 "inmediatamente",
 "recién",
 "ayer",
@@ -1998,50 +2011,83 @@
 "PRONPAP3FªPROC":[
 "las"
 ],
-"ADJ":[
-"monstruosa"
+"ADJSM":[
+"monstruoso",
+"terco",
+"envidioso",
+"mentiroso",
+"engreído",
+"vengativo",
+"horrible",
+"falso",
+"insoportable",
+"afortunado",
+"alto",
+"amable",
+"antiguo",
+"flexible",
+"increíble",
+"redondo",
+"blando",
+"gigante"
 ],
-"LUGAR":[
-"Estación Solaris",
-"Prometeo",
-"Tierra",
-"corredor",
-"pasadizos",
-"océano",
-"sol rojo",
-"sol azul",
-"planeta",
-"planetas",
-"satélite",
-"satélites",
-"galaxia",
-"órbita",
-"castillo",
-"bosque",
-"domo",
-"nave espacial",
-"taller",
-"islas",
-"observatorio",
-"observatorios",
-"Alfa de Acuario",
-"territorio rocoso",
-"hemisferio austral"
-
+"ADJSF":[
+"monstruosa",
+"terca",
+"envidiosa",
+"mentirosa",
+"engreída",
+"vengativa",
+"horrible",
+"falsa",
+"insoportable",
+"afortunada",
+"alta",
+"amable",
+"antigua",
+"flexible",
+"increíble",
+"redonda",
+"blanda"
 ],
-"OBJ":[
-"maquina",
-"cápsula",
-"claraboyas de vidrio",
-"monstruo",
-"robot",
-"modelo",
-"planeta",
-"nave",
-"tonelaje C",
-"sateloide Luna 247",
-"flotilla",
-"sateloide"
-
+"ADJPM":[
+"monstruosos",
+"tercos",
+"envidiosos",
+"mentirosos",
+"engreídos",
+"vengativos",
+"horribles",
+"falsos",
+"insoportables",
+"afortunados",
+"altos",
+"amables",
+"antiguos",
+"flexibles",
+"increíbles",
+"redondos",
+"blandos"
+],
+"ADJPF":[
+"monstruosas",
+"tercas",
+"envidiosas",
+"mentirosas",
+"engreídas",
+"vengativas",
+"horribles",
+"falsas",
+"insoportables",
+"afortunadas",
+"altas",
+"amables",
+"antiguas",
+"flexibles",
+"increíbles",
+"redondas",
+"blandas"
 ]
+
 }
+
