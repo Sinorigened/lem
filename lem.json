@@ -3,7 +3,7 @@
 "#[#DATOS#]S1#"
 ],
 "S1":[
-"#ARTSM# #PERSONAJE# #PERS# en #ARTSM# #OBJSM# #PREP# #ARTSF# #LUGARSF#. #ACT# #PRET3ªSI# #PREP#  #ARTSF# #OBJSF#",
+"#PERSONAJE# #PERS# en #ARTSM# #OBJSM# #PREP# #ARTSF# #LUGARSF#. #ACT# #PRET3ªSI# #PREP#  #ARTSF# #OBJSF#",
 
 "#ACT# #PRET3ªSI# #PREP# #ARTSF# #OBJSF#, #PERSONAJE# #PERS# #PREP# #ARTSM# #OBJSM# #PREP# #ARTSF# #LUGARSF#.",
   
@@ -19,14 +19,9 @@
 
 "#ARTPM# #OBJPM# que #PRET2-3ªPI# #ARTSF# #LUGARSF#, #PARTIC# en #ARTSM# #OBJSM#",
 
-  
-  
-"#PRET1ªPI# #PREP# #ARTSF# #OBJSF# #INTESPF# veces que #PRES1ªPI# #ADVL# #ARTSM# #ADJSM# #LUGARSM#",
+"#PRET1ªPI# #PREP# #ARTSF# #OBJSF# #INTESPF# veces que #PRES1ªPI# #ADVL# #ARTSM# #ADJSM# #LUGARSM#"
 
-"#ARTSM# #PERSONAJEART# #PRET3ªSI# "
-
-
-
+"#ARTSM# #PERSONAJEART# #GERUNCOM# #ADVL# #PREP# #DEMOSTDF# #PERS4#; #ADVT# #ARTSF# #PERS4# #PRET3ªSI#"
 
 ],
 "DATOS":[
@@ -115,15 +110,16 @@
 "tonelaje C",
 "disco incandescente",
 "péndulo",
-"pared",
 "tablero"
 ],
 "OBJSF":[
 "máquina",
 "cápsula",
+"modelo",
 "claraboya de vidrio",
 "nave",
 "flotilla",
+"pared",
 "Tierra"
 ],
 "OBJPM":[
@@ -194,7 +190,7 @@
 "haber llamado",
 "haber recogido",
 "haber conectado",
-"haber oido",
+"haber oído",
 "haber apretado",
 "haber estado",
 "haber sido",
@@ -246,7 +242,7 @@
 "habiendo llamado",
 "habiendo recogido",
 "habiendo conectado",
-"habiendo oido",
+"habiendo oído",
 "habiendo apretado",
 "habiendo estado",
 "habiendo sido",
